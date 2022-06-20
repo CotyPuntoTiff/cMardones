@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PruebaunoApplication<pruebauno>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.cmardones.pruebauno.PruebaunoApplication",
+            "projectName": "pruebauno",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
