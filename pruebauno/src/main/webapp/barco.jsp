@@ -13,6 +13,9 @@
 
             <body>
                 <div class="container">
+                    <c:if test="${msgError!= null}">
+                        <c:out value="${msgError}"></c:out>
+                    </c:if>
                     <form:form action="/barco/guardar" method="post" modelAttribute="auto">
                         <form:label path="nombre" class="form-label">Nombre: </form:label>
                         <form:input path="nombre" class="form-control" />
